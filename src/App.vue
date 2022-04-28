@@ -6,7 +6,7 @@
 </template>
 
 <script>
-
+import "bootstrap"
 import HeaderComp from './components/header/HeaderComp.vue'
 import HeroComp from './components/hero/HeroComp.vue'
 export default {
@@ -19,6 +19,7 @@ export default {
 </script>
 
 <style lang="scss">
+  @import "bootstrap/dist/css/bootstrap.min.css";
   *{
     margin: 0;
     padding: 0;
