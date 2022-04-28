@@ -83,7 +83,7 @@ export default {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           }
           .hero3{
-            flex-basis: 30%;
+            flex-basis: 25%;
             height: 165px;
             background-image: url('../../assets/img/home-6-hero-right-person-195x300.png');
             background-repeat: no-repeat;
