@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <HeaderComp/>
+    <HeroComp/>
   </div>
 </template>
 
 <script>
 
 import HeaderComp from './components/header/HeaderComp.vue'
+import HeroComp from './components/hero/HeroComp.vue'
 export default {
   name: 'App',
   components: {
     HeaderComp,
+    HeroComp
   }
 }
 </script>
@@ -33,5 +36,10 @@ export default {
   .bg_dark_blue{
     background: #1f2154;
 
+  }
+  .button{
+    background: #1fad96;
+    color: white;
+    border-radius: 5px;
   }
 </style>
