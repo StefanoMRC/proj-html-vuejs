@@ -80,9 +80,11 @@ export default {
     .cont_principale{
         padding-top: 150px;
         background-image: url('../../../assets/img/background-pattern-grid-line.png');
+        padding-bottom: 50px;
         .cont_secondario{
             width: 80%;
             margin: auto;
+            
             .card_custom{
                 background: white;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
