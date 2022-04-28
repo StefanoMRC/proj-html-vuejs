@@ -2,6 +2,7 @@
   <div id="app">
     <HeaderComp/>
     <HeroComp/>
+    <MainComp/>
   </div>
 </template>
 
@@ -9,11 +10,13 @@
 import "bootstrap"
 import HeaderComp from './components/header/HeaderComp.vue'
 import HeroComp from './components/hero/HeroComp.vue'
+import MainComp from './components/main/MainComp.vue'
 export default {
   name: 'App',
   components: {
     HeaderComp,
-    HeroComp
+    HeroComp,
+    MainComp
   }
 }
 </script>
