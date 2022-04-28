@@ -1,6 +1,7 @@
 <template>
-      <li class="flex align_center">
+      <li>
           <a :href="link">{{nome}}</a>
+          <i class="fa-solid fa-angle-down"></i>
       </li> 
 </template>
 
@@ -19,10 +20,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     li{
-        
+         margin: 0 10px;
+         
         a{
             color: white;
-            margin: 0 10px;
+            margin-right: 5px;
+            text-decoration: none;
+        }
+        i{
+            color: white;
+            font-size: 13px;
         }
     }
 </style>
