@@ -23,6 +23,7 @@ export default {
 
 <style lang="scss">
   @import "bootstrap/dist/css/bootstrap.min.css";
+ 
   *{
     margin: 0;
     padding: 0;
@@ -45,5 +46,6 @@ export default {
     background: #1fad96;
     color: white;
     border-radius: 5px;
+    border: 0;
   }
 </style>
