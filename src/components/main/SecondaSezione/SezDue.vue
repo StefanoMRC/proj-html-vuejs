@@ -6,16 +6,35 @@
                 <h2 class="text-capitalize size_custom">lasted featured <span class="text_green">courses</span> </h2>
 
           </div>
-          <div>
-
+          <div class="row">
+              <div v-for="(element, index) in listinoPrezzi" :key="index" class="col-6 d-flex">
+                  <div>
+                      <img class=" w-75" :src="element.img" alt="">
+                  </div>
+                  <div>
+                        <h2>{{`$${element.prezzo}`}}<span>.00</span></h2>
+                        <h2>{{element.nome}}</h2>
+                        <div>
+                          <span><i class="fa-solid fa-file-excel"></i>{{element.lezioni}}Lessons</span>
+                          <span><i class="fa-solid fa-user"></i>{{element.studenti}}Students</span>
+                        </div>
+                  </div>
+              </div>
           </div>
       </div>
   </div>
 </template>
 
 <script>
+import img1 from '../../../assets/img/sez2img1.jpg'
+import img2 from '../../../assets/img/sez2img2.jpg'
+import img3 from '../../../assets/img/sez2img3.jpg'
+import img4 from '../../../assets/img/sez2img4.jpg'
+import img5 from '../../../assets/img/sez2img5.jpg'
+import img6 from '../../../assets/img/sez2img6.jpg'
 export default {
-  name: 'SezDue',
+
+      name: 'SezDue',
     data() {
         return {
             listinoPrezzi:[
@@ -23,37 +42,43 @@ export default {
                     nome:'Learning to Write as a Professional Author',
                     prezzo:40,
                     lezioni:20,
-                    studenti:50
+                    studenti:50,
+                    img:img1
                 },
                 {
                     nome:'Customer-centric Info-Tech Strategies',
                     prezzo:0,
                     lezioni:24,
-                    studenti:769
+                    studenti:769,
+                    img:img2
                 },
                 {
                     nome:'Open Programming Courses for Everyone: Python',
                     prezzo:19,
                     lezioni:17,
-                    studenti:62
+                    studenti:62,
+                    img:img3
                 },
                 {
                     nome:'Academic Listening and Note-taking',
                     prezzo:26,
                     lezioni:14,
-                    studenti:67
+                    studenti:67,
+                    img:img4
                 },
                 {
                     nome:'Master jQuery in a Short Period of Time',
                     prezzo:39,
                     lezioni:6,
-                    studenti:51
+                    studenti:51,
+                    img:img5
                 },
                 {
                     nome:'Introduction to Javascript for Beginners',
                     prezzo:59,
                     lezioni:14,
-                    studenti:76
+                    studenti:76,
+                    img:img6
                 }
 
             ]
