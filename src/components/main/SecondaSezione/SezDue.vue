@@ -1,22 +1,23 @@
 <template>
   <div class="cont_principale">
       <div class="cont_secondario">
-          <div class="cont_titolo text-center">
+          <div class="cont_titolo text-center mb-5">
                 <h5 class="text-uppercase">choose a course to get started</h5>
                 <h2 class="text-capitalize size_custom">lasted featured <span class="text_green">courses</span> </h2>
 
           </div>
           <div class="row">
-              <div v-for="(element, index) in listinoPrezzi" :key="index" class="col-6 d-flex">
-                  <div>
-                      <img class=" w-75" :src="element.img" alt="">
+              <div v-for="(element, index) in listinoPrezzi" :key="index" class="col-6 d-flex align-items-center cont_card mb-4 p-3">
+                  <div class="col-3" >
+                      <img class="img-fluid immagine align-self-center" :src="element.img" alt="">
                   </div>
-                  <div>
-                        <h2>{{`$${element.prezzo}`}}<span>.00</span></h2>
-                        <h2>{{element.nome}}</h2>
-                        <div>
-                          <span><i class="fa-solid fa-file-excel"></i>{{element.lezioni}}Lessons</span>
-                          <span><i class="fa-solid fa-user"></i>{{element.studenti}}Students</span>
+                  <div class="col-9">
+                        <h2 v-if="element.prezzo!=0" class="text_green">{{`$${element.prezzo}`}}<span >.00</span></h2>
+                        <h2 v-else class="text_green">Free</h2>
+                        <h2 class="fs-1">{{element.nome}}</h2>
+                        <div class="text_chiaro">
+                          <span><i class="fa-solid fa-file-excel me-3"></i>{{element.lezioni}}Lessons</span>
+                          <span><i class="fa-solid fa-user mx-3"></i>{{element.studenti}}Students</span>
                         </div>
                   </div>
               </div>
@@ -106,7 +107,20 @@ export default {
                     }
                 }
             }
-            
+            .immagine{
+                height: 170px;
+                width: 170px;
+                border-radius: 50%;
+                filter: saturate(80%);
+            }
+            .cont_card:hover{
+                background: white;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                h2{
+                    color: #1fad96;
+                }
+                cursor: pointer;
+            }
         }
     }
 </style>

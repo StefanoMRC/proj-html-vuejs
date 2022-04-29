@@ -48,4 +48,10 @@ export default {
     border-radius: 5px;
     border: 0;
   }
+  .text_green{
+    color: #1fad96;
+  }
+  .text_chiaro{
+    color: rgba(0, 0, 0, 0.473);
+  }
 </style>
