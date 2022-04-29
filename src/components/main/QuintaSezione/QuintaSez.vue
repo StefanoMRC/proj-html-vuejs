@@ -17,7 +17,12 @@
             </div>
             <div class="text-center mt-5 pt-5 cont_pallini">
                     <img class="img-fluid service" src="../../../assets/img/home-6-services-image-1024x411.png" alt="">
-
+                    <div class="pallino_big pallino_blu"></div>
+                    <div class="pallino_small pallino_orange"></div>
+                    <div class="pallino_big pallino_yellow"></div>
+                    <div class="pallino_big pallino_lightblu"></div>
+                    <div class="pallino_small pallino_red"></div>
+                    <div class="pallino_small pallino_azzurro"></div>    
             </div>
         </div>
     </div>
@@ -80,6 +85,35 @@
             position: relative;
             .service{
                 margin-bottom: -28px;
+            }
+            .pallino_blu{
+                border: 5px solid #bce6df;
+                top: 0;
+                left: 18%;
+            }
+            .pallino_orange{
+                background: #fa7d61;
+                bottom: 10%;
+            }
+            .pallino_yellow{
+                background: #ebb860;
+                bottom: -55%;
+                left: 35px;
+            }
+            .pallino_lightblu{
+                background: #bce6df;
+                right: 10%;
+                top:10%
+            }
+            .pallino_red{
+                background: #e28794;
+                right: 18%;
+                bottom: -35px;
+            }
+            .pallino_azzurro{
+                background: #aab8f1;
+                right: 0;
+                bottom: -55%;
             }
         }
     }

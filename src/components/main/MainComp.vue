@@ -6,6 +6,7 @@
       <SezTre/>
       <SezQuattro/>
       <QuintaSez/>
+      <SestSez/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import SezDue from './SecondaSezione/SezDue.vue'
 import SezTre from './TerzaSezione/SezTre.vue'
 import SezQuattro from './QuartaSezione/SezQuattro'
 import QuintaSez from './QuintaSezione/QuintaSez.vue'
+import SestSez from './SestaSezione/SestaSez.vue'
 export default {
   name: 'MainComp',
     components:{
@@ -24,7 +26,8 @@ export default {
         SezDue,
         SezTre,
         SezQuattro,
-        QuintaSez
+        QuintaSez,
+        SestSez
     }
 }
 </script>

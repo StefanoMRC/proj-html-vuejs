@@ -74,19 +74,9 @@
         color: rgba(0, 0, 0, 0.527);
       }
 
-      .pallino_big {
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        position: absolute;
-      }
+      
 
-      .pallino_small {
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-        position: absolute;
-      }
+      
 
       .p_green {
         border: 6px solid #1fad95b9;

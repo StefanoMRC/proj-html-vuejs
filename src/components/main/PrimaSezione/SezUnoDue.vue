@@ -110,6 +110,10 @@ export default {
             .button{
                 padding: 10px 20px;
             }
+            .button:hover{
+                background: #3f3a64;
+                
+            }
 
         }
     }

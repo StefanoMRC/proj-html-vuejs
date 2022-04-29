@@ -9,8 +9,8 @@
                 <div class="hero1">
                     
                 </div>
-                <div class="hero2">
-
+                <div class="hero2 d-flex align-items-center justify-content-center">
+                  <img class="youtube" src="../../assets/img/icon-youtube-play.png" alt="">
                 </div>
                 <div class="hero3">
 
@@ -50,6 +50,10 @@ export default {
         .button{
           padding: 10px 20px; 
         }
+        .button:hover{
+          background: white;
+          color: #1fad96;
+        }
         .cont_img{
           display: flex;
           margin-top: 40px;
@@ -81,6 +85,9 @@ export default {
             margin-left: -30px;
             margin-bottom: -100px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            .youtube{
+              height: 50px;
+            }
           }
           .hero3{
             flex-basis: 25%;
