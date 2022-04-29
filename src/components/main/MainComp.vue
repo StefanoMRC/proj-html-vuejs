@@ -3,6 +3,7 @@
       <SezUno/>
       <SezUnoDue/>
       <SezDue/>
+      <SezTre/>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import SezUno from './PrimaSezione/SezUno.vue'
 import SezUnoDue from './PrimaSezione/SezUnoDue.vue'
 import SezDue from './SecondaSezione/SezDue.vue'
+import SezTre from './TerzaSezione/SezTre.vue'
 export default {
   name: 'MainComp',
     components:{
         SezUno,
         SezUnoDue,
-        SezDue
+        SezDue,
+        SezTre
     }
 }
 </script>
