@@ -26,8 +26,11 @@ export default {
 
 <style lang="scss">
   @import "bootstrap/dist/css/bootstrap.min.css";
- 
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lato:ital,wght@1,300&family=Roboto:wght@300&display=swap');
   *{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;

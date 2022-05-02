@@ -6,7 +6,7 @@
 
     <div class="cont_hero">
         <div class="cont_contenuto">
-            <h2>learn at your own peace!</h2>
+            <h2 class="fw-bold">learn at your own peace!</h2>
             <p>Get teamed up with peaple of the same will.</p>
             <button class="button" type="button">Get started for free</button>
             <div class="cont_img">

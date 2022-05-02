@@ -12,9 +12,9 @@
                       <img class="img-fluid immagine align-self-center" :src="element.img" alt="">
                   </div>
                   <div class="col-9">
-                        <h2 v-if="element.prezzo!=0" class="text_green">{{`$${element.prezzo}`}}<span >.00</span></h2>
+                        <h2 v-if="element.prezzo!=0" class="text_green fw-bolder">{{`$${element.prezzo}`}}<span >.00</span></h2>
                         <h2 v-else class="text_green">Free</h2>
-                        <h2 class="fs-1">{{element.nome}}</h2>
+                        <h2 class="fs-1 fw-bold">{{element.nome}}</h2>
                         <div class="text_chiaro">
                           <span><i class="fa-solid fa-file-excel me-3"></i>{{element.lezioni}}Lessons</span>
                           <span><i class="fa-solid fa-user mx-3"></i>{{element.studenti}}Students</span>

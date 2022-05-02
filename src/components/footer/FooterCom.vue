@@ -4,7 +4,7 @@
        <div class="container">
            <div class="row ">
                 <div class="col-6">
-                    <h2>Address</h2>
+                    <h2 class="fw-bold">Address</h2>
                     <CompIndirizzo
                     v-for="(element, index) in listaIndirizzo" :key="index"
                     :indirizzo='listaIndirizzo'
@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="col-3 explore">
-                    <h2>Explore</h2>
+                    <h2 class="fw-bold">Explore</h2>
                     <ul class="d-flex flex-column flex-wrap h-100">
                         <CompLink
                     v-for="(element, index) in listaExplore" :key="index"
@@ -30,7 +30,7 @@
                     
                 </div>
                 <div class="col-3">
-                    <h2>Information</h2>
+                    <h2 class="fw-bold">Information</h2>
                     <ul class="d-flex flex-column flex-wrap h-100">
                         <CompLink
                     v-for="(element, index) in listaInformazioni" :key="index"

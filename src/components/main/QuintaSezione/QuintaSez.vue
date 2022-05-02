@@ -2,14 +2,14 @@
     <div class="cont_principale pt-5">
         <div class="cont_secondario ">
             <div class="text-center py-5">
-                <h6 class="text-uppercase text_chiaro">wanna trasform your live?</h6>
-                <h2 class="fs-1">Glad to <span class="text_green text-capitalize">help you</span> Learn</h2>
+                <h6 class="text-uppercase text_chiaro fw-bold">wanna trasform your live?</h6>
+                <h2 class="fs-1 fw-bold">Glad to <span class="text_green text-capitalize fw-normal">help you</span> Learn</h2>
             </div>
             <div class="container my-5">
                 <div class="row">
                     <div v-for="(element, index) in listaServizi" :key="index" class="col-3">
                         <img class="img-fluid" :src="element.img" alt="">
-                        <h3 class="py-2 text-capitalize">{{element.titolo}}</h3>
+                        <h3 class="py-2 text-capitalize fw-bold">{{element.titolo}}</h3>
                         <p class="text_chiaro fs-5">{{element.descrizione}}</p>
                     </div>
                 </div>

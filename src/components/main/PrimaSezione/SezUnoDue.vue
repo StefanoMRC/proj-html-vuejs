@@ -4,7 +4,7 @@
           <div class="row col-6">
               <div class="col-5 mb-4 mx-2">
                   <div class="my-3 card_custom px-3 pt-3" v-for="(element,index) in listaServizi" :key="index">
-                      <h2>{{element.nome}}</h2>
+                      <h2 class="fw-bold">{{element.nome}}</h2>
                       <p>{{element.descrizione}}</p>
                       <img :src="element.img" alt="">
                   </div>
@@ -20,7 +20,7 @@
           <div class="row col-6 align-items-center ">
               <div class="w-75 m-auto">
                     <h5 class="text-uppercase">together we can create</h5>
-                    <h2 class="text-capitalize size_custom">services we <span class="text_green">can provide</span> for my clients.</h2>
+                    <h2 class="text-capitalize size_custom fw-bold">services we <span class="text_green fw-normal">can provide</span> for my clients.</h2>
                     <ul class="p-0">
                         <li><i class="fa-solid fa-check"></i>Select & customize courses to your preferences</li>
                         <li><i class="fa-solid fa-check"></i>Change the tutor and make errangements</li>

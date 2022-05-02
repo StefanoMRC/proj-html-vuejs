@@ -1,8 +1,8 @@
 <template>
     <div class="cont_principale py-5">
         <div class="cont_secondario">
-            <h2 class="text-center text-capitalize fs-1 pb-5">
-                why peaple talk about <span class="text_green">maxChoach</span>?
+            <h2 class="text-center text-capitalize fs-1 pb-5 fw-bold">
+                why peaple talk about <span class="text_green fw-normal">maxChoach</span>?
             </h2>
             <div class="container mt-5">
                 <div class="row align-items-center justify-content-center cont_avatar">
@@ -17,7 +17,7 @@
                             I am free to learn at my own peace, follow my own schedule and choose the subject I like.
                             Great study portal for peaple like me.
                         </p>
-                        <h6 class="text-uppercase">mina hollace</h6>
+                        <h6 class="text-uppercase fw-bold">mina hollace</h6>
                         <span class="text_chiaro ">/Freelancer</span>
                     </div>
 

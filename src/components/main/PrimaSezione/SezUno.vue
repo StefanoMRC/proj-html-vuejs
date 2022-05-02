@@ -2,10 +2,10 @@
   <div class="cont-principale">
     <div class="cont-secondario text-center">
       <div class="pb-4">
-        <p class="fs-1 w-50 m-auto">
+        <p class="fs-1 w-50 m-auto fw-bold">
           Let passion and determination be the guide along the way and develop at your own pace that's comfortable.
         </p>
-        <h4 class="text-uppercase pt-5">fannie moreno</h4>
+        <h4 class="text-uppercase pt-5 fw-bold">fannie moreno</h4>
         <span class="color_chiaro ">/Founder & CEO</span>
         <div class="pallino_big p_green"></div>
         <div class="pallino_small p_orange"></div>
@@ -19,8 +19,8 @@
       <div class="container pt-5">
         <div class="row">
           <div v-for="(element, index) in listaDati" :key="index" class="col-3">
-            <h2 class="fs-1 color_green">{{element.numeri}}</h2>
-            <span class="text-uppercase color_chiaro">{{element.descrizione}}</span>
+            <h2 class="fs-1 color_green fw-bolder">{{element.numeri}}</h2>
+            <span class="text-uppercase color_chiaro fw-bolder">{{element.descrizione}}</span>
           </div>
         </div>
 

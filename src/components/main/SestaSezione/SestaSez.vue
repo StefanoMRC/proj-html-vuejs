@@ -1,7 +1,7 @@
 <template>
   <div class="cont_principale text-center">
-      <h3>Start today fo getting <span class="text_green text-capitalize">online certification</span></h3>
-      <h2 class="mb-5 fs-1">You can be your own guiding star with our help!</h2>
+      <h3 class="fw-bold">Start today fo getting <span class="text_green text-capitalize fw-normal">online certification</span></h3>
+      <h2 class="mb-5 fs-1  fw-bold">You can be your own guiding star with our help!</h2>
       <button class="button">Get started now</button>
   </div>
 </template>

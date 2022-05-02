@@ -3,7 +3,7 @@
         <div class="flex between align_cente cont_header">
             <div><img class="logo" src="../../assets/img/light-logo.png" alt="immagine logo"></div>
             <div class="flex align_center">
-                <ul class="flex ">
+                <ul class="flex pt-2">
                     <MenuComp v-for="(element, index) in listaMenu" :key="index" :nome='element.nome'
                         :link='element.link' />
                 </ul>

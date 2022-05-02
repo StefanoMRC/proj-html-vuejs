@@ -2,8 +2,8 @@
   <div class="cont_principale">
       <div class="cont_secondario py-5">
           <div class="text-center">
-                <h6 class="text_chiaro text-uppercase">enjoy reading on maxcoach</h6>
-                <h2 class="fs-1">Lasted on <span class="text-capitalize text_green">our blogs</span></h2>
+                <h6 class="text_chiaro text-uppercase fw-bold">enjoy reading on maxcoach</h6>
+                <h2 class="fs-1 fw-bold">Lasted on <span class="text-capitalize text_green fw-normal">our blogs</span></h2>
           </div>
           <div class="container">
               <div class="row">
