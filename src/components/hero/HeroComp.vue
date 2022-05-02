@@ -1,5 +1,9 @@
 <template>
-  <div class="bg_dark_blue">
+  <div class="bg_dark_blue cont_principale">
+     <img class="wave" src="../../assets/img/wave.svg" alt="">
+     <img class="wave2" src="../../assets/img/wave3.svg" alt="">
+ 
+
     <div class="cont_hero">
         <div class="cont_contenuto">
             <h2>learn at your own peace!</h2>
@@ -15,6 +19,7 @@
                 <div class="hero3">
 
                 </div>
+               
             </div>
         </div>
     </div>
@@ -30,6 +35,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+    .cont_principale{
+      position: relative;
+      .wave{
+            position: absolute;
+            bottom: 0;
+            z-index: 1;}
+      .wave2{
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+      }
+      
+    }
     .cont_hero{
       width: 80%;
       margin: auto;
@@ -59,6 +77,8 @@ export default {
           margin-top: 40px;
           justify-content: center;
           
+          
+          }
           .hero1{
             flex-basis: 30%;
             height: 470px;
@@ -70,6 +90,7 @@ export default {
             align-self: flex-end;
             margin-bottom: -100px;
             margin-right: -10px;
+            z-index: 2;
           }
           .hero2{
             flex-basis: 55%;
@@ -78,7 +99,7 @@ export default {
             background-image: url('../../assets/img/home-6-hero-poster-final.jpg');
             background-repeat: no-repeat;
             background-position: center;
-           
+            z-index: 2;
             background-size: cover;
             border: 20px solid white;
             border-radius: 20px;
@@ -96,10 +117,11 @@ export default {
             background-repeat: no-repeat;
             align-self: flex-end;
             margin-bottom: -100px;
+            z-index: 2;
           }
 
         }
       }
-    }
+    
   
 </style>
